@@ -1,7 +1,7 @@
 <?php
 
-    $hubVerifyToken = 'amarlovesmango';
-    $accessToken = "EAAB2nwgUkfEBAJ4QQZBFx2c7HXTii1FLfTjp2wnJNkCITjXxuOyfnZAop8FZAyKGSuVynoCTjLR0LZCStzbkaJGXkbCk42whboUOcWZCQFHcRhuJxcFF3SJI8RVmVP7ajNLipxKPaSO8Vof8pHBsidw2sBJcjow4ZBssVFKMyH7gZDZD";
+    $hubVerifyToken = 'xxxxxxxxxxxxxxx';
+    $accessToken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
     if ($_REQUEST['hub_verify_token'] === $hubVerifyToken) {
       echo $_REQUEST['hub_challenge'];
