@@ -1,9 +1,9 @@
 <?php
 
 	// Necessary Token Variables for API access!
-	$hubVerifyToken = '**********************************';
-	$accessToken = "**********************************";
-	$youtube_api_key = "**********************************";
+	$hubVerifyToken = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+	$accessToken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+	$youtube_api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 	
 	$regex = "/(hello)|(hi)/";
 
@@ -90,6 +90,7 @@
 		
 		// echo $download_url['link'];
 	}
+
 	$ch = curl_init('https://graph.facebook.com/v2.6/me/messages?access_token='.$accessToken);
 	
 	curl_setopt($ch, CURLOPT_POST, 1);
